@@ -11,7 +11,7 @@ st.header("Datos de la actividad")
 def user_input_features():
 
 
-    City=st.number_input("City",min_value=0,max_value=2,value=1,step=1, )
+    City=st.number_input("City (Acapulco:0,Acuña:1,Aguascalientes:2)"(",min_value=0,max_value=2,value=1,step=1, )
 
     Year=st.number_input("Year",min_value=0,max_value=2025,value=0,step=1,)
 
