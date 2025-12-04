@@ -51,4 +51,4 @@ b0 = LR.intercept_
 prediccion = b0 + b1[0]*df["City"] + b1[1]*df["Year"] + b1[2]*df["Month"]
 
 st.subheader("Calculo de temperatura")
-st.write(f"La temperatura estimada en tu ciudad es: **${prediccion:,.2f}** pesos")
+st.write(f"La temperatura estimada en tu ciudad es:",prediccion)
